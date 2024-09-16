@@ -31,6 +31,24 @@ The purpose of this project is ________. (Describe the main goals of the project
 ## Project Description
 (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
 
+Different features include:
+- date
+- month
+- average temperature
+- precipitation (prcp)
+- air pressure
+
+"""
+ (NEXT TIME TO DO A GUIDED LDA)
+To guide an LDA (Latent Dirichlet Allocation) model to include certain words in different topics,
+you can use a semi-supervised approach known as "seeded" or "guided" LDA. This involves incorporating
+seed words or a dictionary of seed words for each topic, which influences the topic-word distributions.
+
+One method to achieve this is to use the GuidedLDA library, which allows you to incorporate prior
+knowledge into the LDA model. You can specify seed words for each topic, and the model will give higher
+probability to these words in the respective topics.
+"""
+
 ## Needs of this project
 
 - frontend developers
