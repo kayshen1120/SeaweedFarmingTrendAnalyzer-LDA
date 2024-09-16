@@ -73,7 +73,7 @@ probability to these words in the respective topics.
 5. Follow setup [instructions](Link to file)
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
+* [Presentation Poster](https://docs.google.com/presentation/d/1UJeXbBqSDElVRAl0k35jpL8aX3qRYpi1Cq2KkW9ZmJ0/edit?usp=sharing)
 * [Notebook/Markdown/Slide DeckTitle](link)
 * [Blog Post](link)
 
