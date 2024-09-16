@@ -1,4 +1,54 @@
 # Information Sharing in Seaweed Farming: Investigating the Dynamics of Participation in Facebook Groups Among Indonesian Seaweed Farmers
+Project Overview
+This data science project focuses on analyzing Facebook posts from Indonesian seaweed farmers to uncover patterns and relationships with environmental factors such as weather conditions. The dataset includes posts from the Rumput Laut Centre collected between September 1, 2021, and August 29, 2022.
+
+Data Description
+The primary dataset consists of Facebook posts which have been scraped and stored. Additionally, weather data from Makassar (available at Meteostat) has been incorporated to analyze the impact of environmental factors on the content of the posts.
+
+Objectives
+Text Analysis: Perform text cleaning and Latent Dirichlet Allocation (LDA) for unsupervised clustering of the posts.
+Environmental Correlation: Explore potential correlations between the clustered themes in the posts and environmental variables like temperature and precipitation.
+Tools and Technologies Used
+Google Colab: For executing Python notebooks in a cloud-based environment.
+Python Libraries:
+pandas for data manipulation.
+matplotlib and seaborn for data visualization.
+sklearn for implementing LDA.
+Data Sources:
+Facebook posts from Rumput Laut Centre.
+Weather data from Meteostat.
+Project Structure
+Data Importation: Load data from Google Drive.
+Data Cleaning: Clean the text data to prepare for LDA.
+Text Clustering: Use LDA to cluster posts and analyze the clusters.
+Weather Data Incorporation: Integrate weather data to explore environmental impacts on post content.
+Analysis: Investigate correlations between post clusters and weather conditions.
+Installation and Setup
+Clone the project repository:
+
+bash
+Copy code
+git clone <repository-url>
+Install required Python packages:
+
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+To run the project, navigate to the project directory and launch the Jupyter notebook:
+
+bash
+Copy code
+jupyter notebook DATASCI112_Project_Colab.ipynb
+Contributors
+[Your Name]: Project Lead - Responsible for data analysis and model development.
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+Acknowledgments
+Special thanks to Rumput Laut Centre for providing access to the data necessary for this analysis.
+
+
 
 Data science project to analyze themes in seaweed farming Facebook posts over time to understand issues farmers face for better policy making &amp; the potential for digital technology usage in aquacultural extension services. Created in part for my honors thesis project and in part for the final DATASCI112 project at Stanford University. 
 
