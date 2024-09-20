@@ -27,11 +27,8 @@ Install the required Python packages specified in `requirements.txt`. You can do
 
 ```python
 !pip install -r requirements.txt
+```
 
-License
+## License
 
-This project is licensed under the terms of the MIT license. The license file can be found [here](License.md).
-
-Running the Notebook
-
-Once the dependencies are installed, you can run the notebook cells sequentially to reproduce the analysis.
+This project is licensed under the terms of the MIT license. The license file can be found [here](License).
