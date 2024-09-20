@@ -23,25 +23,11 @@ Environmental Correlation: Explore potential correlations between the clustered 
 
 ## Data Description
 
-The source of the Facebook posts is from Madeline Grist's thesis, *Propagule Distribution Systems of Tropical Carrageenan Seaweed in South Sulawesi: Value Chain and Social Media Analyses* and while the dataset is not publicly available, the Facebook group from which the posts were gleaned is a public Facebook group, the Rumput Laut Centre. The dataset includes posts from the Rumput Laut Centre collected between September 1, 2021, and August 29, 2022. I then joined weather and climatic data from Meteostat, which provides open weather and climate data. I used weather data from Makassar, a city near Indonesia’s largest seaweed farming hotspot.    
+The source of the Facebook posts is from Madeline Grist's thesis, *Propagule Distribution Systems of Tropical Carrageenan Seaweed in South Sulawesi: Value Chain and Social Media Analyses* and while the dataset is not publicly available, the Facebook group from which the posts were gleaned is a public Facebook group, the Rumput Laut Centre. 
 
-The dataset consists of 
+The dataset includes posts collected between September 1, 2021, and August 29, 2022. I then joined weather and climatic data from Meteostat, which provides open weather and climate data. I used weather data from Makassar, a city near Indonesia’s largest seaweed farming hotspot.    
 
-Information about the dataset(s) used:
-Source(s) of the data (where it came from).
-What the data represents.
-Key variables or features in the dataset.
-If applicable, any preprocessing or cleaning that was done.
-Instructions on how to access the data (e.g., links or notes on whether the data is included in the repository).
-
-Different features include:
-- date
-- month
-- average temperature
-- precipitation (prcp)
-- air pressure
-
-
+This tabular dataset consists of rows, each representing a Facebook post, and columns that capture various features associated with each post. These features include the text of the post in Bahasa Indonesia, English, and a processed English format (stemmed, lemmatized, and other NLTK operations), as well as the category of the post, the date it was published, and relevant weather features from the day of the post, such as precipitation and temperature.
 
 The weather data is available [here](https://meteostat.net/en/place/id/makassar?s=97180&t=2022-08-04/2022-09-01).
 
@@ -91,14 +77,6 @@ knowledge into the LDA model. You can specify seed words for each topic, and the
 probability to these words in the respective topics.
 """
 
-
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-5. Follow setup [instructions](Link to file)
 
 ## Featured Deliverable
 * [Presentation Poster](https://docs.google.com/presentation/d/1UJeXbBqSDElVRAl0k35jpL8aX3qRYpi1Cq2KkW9ZmJ0/edit?usp=sharing)
