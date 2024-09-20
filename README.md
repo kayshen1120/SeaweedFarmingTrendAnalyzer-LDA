@@ -6,6 +6,8 @@ Seaweed farming is an important source of income for Indonesia's coastal communi
 
 There is growing academic interest in the use of online information sharing platforms to improve seaweed farmer livelihoods, such as through increased price transparency and access to larger markets. This project analyzes the trends in the most commonly discussed topics on Facebook, a popular platform used by seaweed farmers, in an attempt to understand how seaweed farmers utilize current technologies. 
 
+**Understanding what seaweed farmers post about, i.e. what issues they face at different points throughout the year, is critical not only in academic discussions around digital technology empowerment, but also aquaculture extension policy, and how governments can better cater towards small aquaculture farmers that are the backbone of Indonesia's economy.**
+
 ## Project Overview & Objectives
 
 This project analyzes Facebook posts from Indonesian seaweed farmers to uncover patterns in what farmers are interested in and its relationships with environmental factors, such as weather conditions. The dataset is comprised of posts from the Rumput Laut Centre, one of the largest seaweed farming Facebook groups at approximately 56,000 members. This project was created for the final DATASCI112 project at Stanford University. 
