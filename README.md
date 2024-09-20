@@ -2,24 +2,30 @@
 
 ## Context
 
-A brief description of what the project is about, its goals, and why it is important.
-Context on the problem being addressed and why the analysis or model is useful.
+Seaweed farming is an important source of income for Indonesia's coastal communities. However, Indonesian seaweed farmers face challenges such as price transparency, market access, and access to quality seedlings. Like many other small-scale producers, they live at subsistence levels. 
 
-This data science project focuses on analyzing Facebook posts from Indonesian seaweed farmers to uncover patterns and relationships with environmental factors such as weather conditions. The dataset includes posts from the Rumput Laut Centre collected between September 1, 2021, and August 29, 2022.
-
-This data science project focuses on analyzing Facebook posts from Indonesian seaweed farmers to uncover patterns and relationships with environmental factors such as weather conditions. 
-
-Data science project to analyze themes in seaweed farming Facebook posts over time to understand issues farmers face for better policy making &amp; the potential for digital technology usage in aquacultural extension services. Created in part for my honors thesis project and in part for the final DATASCI112 project at Stanford University. 
+There is growing academic interest in the use of online information sharing platforms to improve seaweed farmer livelihoods, such as through increased price transparency and access to larger markets. This project analyzes the trends in the most commonly discussed topics on Facebook, a popular platform used by seaweed farmers, in an attempt to understand how seaweed farmers utilize current technologies. 
 
 ## Project Overview & Objectives
 
 (say data science project from 112 here)
 
+
+This project analyzes Facebook posts from Indonesian seaweed farmers to uncover patterns in what farmers are interested in and relationships with environmental factors such as weather conditions. The dataset is comprised of posts from the Rumput Laut Centre, one of the largest seaweed farming Facebook groups at approximately 56,000 members, collected between September 1, 2021, and August 29, 2022.
+
+This data science project focuses on analyzing Facebook posts from Indonesian seaweed farmers to uncover patterns and relationships with environmental factors such as weather conditions. 
+
+Data science project to analyze themes in seaweed farming Facebook posts over time to understand issues farmers face for better policy making &amp; the potential for digital technology usage in aquacultural extension services. Created in part for my honors thesis project and in part for the final DATASCI112 project at Stanford University. 
+
+
 Text Analysis: Perform text cleaning and Latent Dirichlet Allocation (LDA) for unsupervised clustering of the posts.
 Environmental Correlation: Explore potential correlations between the clustered themes in the posts and environmental variables like temperature and precipitation.
 
 ## Data Description
-The primary dataset consists of Facebook posts which have been scraped and stored. Additionally, weather data from Makassar (available at Meteostat) has been incorporated to analyze the impact of environmental factors on the content of the posts.
+
+The source of the Facebook posts is from Madeline Grist's thesis, *Propagule Distribution Systems of Tropical Carrageenan Seaweed in South Sulawesi: Value Chain and Social Media Analyses* and while the dataset is not publicly available, the Facebook group from which the posts were gleaned is a public Facebook group, the Rumput Laut Centre. The dataset includes posts from the Rumput Laut Centre collected between September 1, 2021, and August 29, 2022. I then joined weather and climatic data from Meteostat, which provides open weather and climate data. I used weather data from Makassar, a city near Indonesia’s largest seaweed farming hotspot.    
+
+The dataset consists of 
 
 Information about the dataset(s) used:
 Source(s) of the data (where it came from).
@@ -35,7 +41,6 @@ Different features include:
 - precipitation (prcp)
 - air pressure
 
-The source of the Facebook posts is from Madeline Grist's thesis, *Propagule Distribution Systems of Tropical Carrageenan Seaweed in South Sulawesi: Value Chain and Social Media Analyses* and while the dataset is not publicly available, the Facebook group from which the posts were gleaned is a public Facebook group, the Rumput Laut Centre. The dataset includes posts from the Rumput Laut Centre collected between September 1, 2021, and August 29, 2022.
 
 
 The weather data is available [here](https://meteostat.net/en/place/id/makassar?s=97180&t=2022-08-04/2022-09-01).
