@@ -8,18 +8,8 @@ There is growing academic interest in the use of online information sharing plat
 
 ## Project Overview & Objectives
 
-(say data science project from 112 here)
+This project analyzes Facebook posts from Indonesian seaweed farmers to uncover patterns in what farmers are interested in and its relationships with environmental factors, such as weather conditions. The dataset is comprised of posts from the Rumput Laut Centre, one of the largest seaweed farming Facebook groups at approximately 56,000 members. This project was created for the final DATASCI112 project at Stanford University. 
 
-
-This project analyzes Facebook posts from Indonesian seaweed farmers to uncover patterns in what farmers are interested in and relationships with environmental factors such as weather conditions. The dataset is comprised of posts from the Rumput Laut Centre, one of the largest seaweed farming Facebook groups at approximately 56,000 members, collected between September 1, 2021, and August 29, 2022.
-
-This data science project focuses on analyzing Facebook posts from Indonesian seaweed farmers to uncover patterns and relationships with environmental factors such as weather conditions. 
-
-Data science project to analyze themes in seaweed farming Facebook posts over time to understand issues farmers face for better policy making &amp; the potential for digital technology usage in aquacultural extension services. Created in part for my honors thesis project and in part for the final DATASCI112 project at Stanford University. 
-
-
-Text Analysis: Perform text cleaning and Latent Dirichlet Allocation (LDA) for unsupervised clustering of the posts.
-Environmental Correlation: Explore potential correlations between the clustered themes in the posts and environmental variables like temperature and precipitation.
 
 ## Data Description
 
@@ -36,6 +26,10 @@ The weather data is available [here](https://meteostat.net/en/place/id/makassar?
 A description of the methods used for the analysis or modeling.
 Explanation of the approach, including key algorithms, techniques, or tools employed.
 Mention any assumptions made or challenges faced in the project.
+
+
+Text Analysis: Perform text cleaning and Latent Dirichlet Allocation (LDA) for unsupervised clustering of the posts.
+Environmental Correlation: Explore potential correlations between the clustered themes in the posts and environmental variables like temperature and precipitation.
 
 Google Colab: For executing Python notebooks in a cloud-based environment.
 Python Libraries:
