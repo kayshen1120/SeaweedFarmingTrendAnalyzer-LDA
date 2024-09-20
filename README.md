@@ -22,39 +22,26 @@ This tabular dataset consists of rows, each representing a Facebook post, and co
 The weather data is available [here](https://meteostat.net/en/place/id/makassar?s=97180&t=2022-08-04/2022-09-01).
 
 ## Methodology
+### Data Cleaning
+The first step in the preprocessing was cleaning the English text in preparation for Latent Dirichlet Allocation (LDA). This involved standard text cleaning procedures such as lowercasing, removing special characters, stopwords, and punctuation, and stemming to reduce words to their base or root form.
 
-A description of the methods used for the analysis or modeling.
-Explanation of the approach, including key algorithms, techniques, or tools employed.
-Mention any assumptions made or challenges faced in the project.
+### Data Enrichment
+To incorporate environmental effects, weather data for the same period was integrated into the analysis. This data included metrics like average temperature, precipitation, and wind direction and was sourced from Meteostat.
 
+### Analysis Methodology
+Unsupervised clustering using Latent Dirichlet Allocation (LDA) was performed on the cleaned text data. This method helped identify latent topics within the posts, which were then analyzed to understand their correlation with various environmental factors. The hypothesis was that certain types of posts, such as those related to buying or selling seaweed, might correlate with weather patterns, particularly precipitation levels, which influence seaweed productivity.
 
-Text Analysis: Perform text cleaning and Latent Dirichlet Allocation (LDA) for unsupervised clustering of the posts.
-Environmental Correlation: Explore potential correlations between the clustered themes in the posts and environmental variables like temperature and precipitation.
+### Quality Assessment of Clusters
+The quality of the clusters generated from LDA was assessed using a K-nearest classifier model. This model was trained to predict the correct category of posts based on the clusters identified. Cross-validation was used to evaluate the model, with the f1_macro score chosen as the evaluation metric due to its balance of precision and recall. The performance of the model provided insights into the distinctiveness and relevance of the clusters.
 
-Google Colab: For executing Python notebooks in a cloud-based environment.
-Python Libraries:
-pandas for data manipulation.
-matplotlib and seaborn for data visualization.
-sklearn for implementing LDA.
-Data Sources:
-Facebook posts from Rumput Laut Centre.
-Weather data from Meteostat.
-Project Structure
-Data Importation: Load data from Google Drive.
-Data Cleaning: Clean the text data to prepare for LDA.
-Text Clustering: Use LDA to cluster posts and analyze the clusters.
-Weather Data Incorporation: Integrate weather data to explore environmental impacts on post content.
-Analysis: Investigate correlations between post clusters and weather conditions.
-Installation and Setup
-Clone the project repository:
+### Visualization
+Several visualizations were created to better understand the relationship between cluster distribution and climate-related variables:
 
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+Graphs plotting the number of posts in each cluster against precipitation, average temperature, and wind direction.
+Word clouds were generated for each cluster to visualize the most common words and themes within each group, enhancing the interpretability of the LDA results.
 
 ## Results & Analysis
+
 
 (base this off of the project poster)
 
