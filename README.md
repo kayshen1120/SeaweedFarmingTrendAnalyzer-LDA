@@ -1,5 +1,8 @@
 # Information Sharing in Seaweed Farming: Investigating the Dynamics of Participation in Facebook Groups Among Indonesian Seaweed Farmers
 
+installation and usage instructions, license and contributing information, and credits
+
+
 ## Context
 
 Seaweed farming is an important source of income for Indonesia's coastal communities. However, Indonesian seaweed farmers face challenges such as price transparency, market access, and access to quality seedlings. Like many other small-scale producers, they live at subsistence levels. 
@@ -39,6 +42,7 @@ Several visualizations were created to better understand the relationship betwee
 
 Graphs plotting the number of posts in each cluster against precipitation, average temperature, and wind direction.
 Word clouds were generated for each cluster to visualize the most common words and themes within each group, enhancing the interpretability of the LDA results.
+
 
 ## Results & Analysis
 
